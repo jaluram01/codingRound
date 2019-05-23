@@ -45,16 +45,19 @@ public class HotelBookingTest extends TestBase{
 	}
 	
 	@Test(priority = 2)
+	//Validating the Presence of Locality text field
 	public void validateLocalityTextField() {
 		Assert.assertTrue(hotelBookingPage.checkIfLocalityTextFieldPresent());
 	}
 	
 	@Test(priority = 3)
+	//Validating the Presence of Traveler text field
 	public void validateTravelerTextField() {
 		Assert.assertTrue(hotelBookingPage.checkIfTravellersTextFieldPresent());
 	}
 	
 	@Test(priority = 4)
+	//Validating the Presence of search button
 	public void validateSearchButton() {
 		Assert.assertTrue(hotelBookingPage.checkIfSearchButtonPresent());
 	}

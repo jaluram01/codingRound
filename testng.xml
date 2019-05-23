@@ -5,6 +5,7 @@
     <classes>
       <class name="com.codingRound.tests.FlightBookingTest"/>
       <class name="com.codingRound.tests.HotelBookingTest"></class>
+      <class name="com.codingRound.tests.SignInTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
