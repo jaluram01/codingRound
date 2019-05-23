@@ -69,4 +69,4 @@ Explanation of New Framework:
 4. TestData Package consist of a excel file which is used to store all the test data required for testing
 5. util package consist Util and MSExcelAutomation Class
 6. Util class is containing the all the comonly used methods
-7. MSExcelAutomation class is used to read the data from excel
+7. MSExcelAutomation class is used to read the data from excel.
